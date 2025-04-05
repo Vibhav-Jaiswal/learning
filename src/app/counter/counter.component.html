@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Counter App</h1>
+  <h1 class="count">{{ count }}</h1>
+
+  <div class="buttons">
+    <button class="decrease" (click)="handleCounter('dec')">Decrease</button>
+    <button class="reset" (click)="handleCounter('reset')">Reset</button>
+    <button class="increase" (click)="handleCounter('inc')">Increase</button>
+  </div>
+</div>
